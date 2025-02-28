@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <div id="top" style="width: 80%; margin: 0 auto">
+      <h1>Welcome to My World</h1>
+
+      <picture>
+        <!-- For laptops-->
+        <source srcset="assets/meezy-laptop.jpg" media="(min-width: 1024px)" />
+
+        <!-- For tablets -->
+        <source srcset="assets/meezy-tablet.jpg" media="(min-width: 768px)" />
+
+        <!-- For large mobile phones -->
+        <source
+          srcset="assets/meezy-mobile-large.jpg"
+          media="(min-width: 480px)"
+        />
+
+        <!-- For small mobile phones -->
+        <source
+          srcset="assets/meezy-mobile-small.jpg"
+          media="(max-width: 479px)"
+        />
+
+        <!-- Fallback image -->
+        <img
+          src="assets/meezy.jpg"
+          alt="A picture of me"
+          width="500"
+          height="auto"
+        />
+      </picture>
+
+      <p>
+        I’m a compassionate and dedicated healthcare professional who truly
+        cares about making a difference in people’s lives. I have hands-on
+        experience in providing care across a variety of settings, from
+        supporting individuals with their daily needs to responding in emergency
+        situations. What drives me is the connection I make with others, always
+        treating people with empathy, respect, and professionalism. Outside of
+        healthcare, I’m passionate about cloud engineering and love diving into
+        the world of technology. I’m always learning and growing, eager to bring
+        my skills and enthusiasm to both the healthcare and tech industries.
+      </p>
+      <p>Listen:</p>
+      <audio controls>
+        <source src="assets/meezy-audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <p>More about me</p>
+      <video controls>
+        <source src="assets/meezy-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p> <a href="../index.html"> &lt;&lt;&lt;Back</a></p>
+      <p><a href="#top">Back to Top</a></p>
+      <footer>
+        <p>&copy; 2025 Mozez.</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
